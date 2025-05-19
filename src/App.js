@@ -1,4 +1,6 @@
 import './App.css';
+import { BeforeBtn } from './components/BeforeBtn';
+import { NextBtn } from './components/NextBtn';
 
 function App() {
   return (
@@ -8,7 +10,8 @@ function App() {
           Content
         </section>
         <section className='section-button'>
-          Button
+          <NextBtn />
+          <BeforeBtn />
         </section>
       </main>
     </div>
