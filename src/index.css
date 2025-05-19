@@ -14,7 +14,7 @@ code {
     monospace;
 }
 
-.app-main{
+.app-main {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -24,13 +24,40 @@ code {
   color: rgb(58, 58, 58);
 }
 
-.section-content{
+.section-content {
   width: 70%;
   height: 40%;
-  background-color: tomato;
+  background-color: rgba(255, 99, 71, 0.3);
 }
-.section-button{
+
+.section-button {
   width: 70%;
   height: 5%;
-  background-color: tomato;
+  background-color: rgba(255, 99, 71, 0.1);
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.btn-main {
+  width: 40%;
+  height: 50px;
+
+  font-size: 1.3rem;
+  font-family: Helvetica;
+  font-weight: 100;
+
+  cursor: pointer;
+
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2), inset -4px -4px 10px rgba(255, 255, 255, 0.3);
+  }
+  &:active {
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.2), inset -6px -6px 15px rgba(255, 255, 255, 0.3);
+  }
 }
